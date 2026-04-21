@@ -7,7 +7,7 @@ def preprocess_data(df: pd.DataFrame) -> pd.DataFrame:
     
     for col in ["Unnamed: 0"]:
         if col in df.columns:
-            df.drop(columns=[col])
+            df = df.drop(columns=[col])
             
     if "Sex" in df.columns and df["Sex"].dtype == "object":
         df["Sex"] = df["Sex"].str.strip().map({"male": 0, "female": 1})
