@@ -1,0 +1,10 @@
+artifact_location: file:C:/Users/jaked/OneDrive/Documents/GitHub/Credit-Scorecard/mlruns/0/models/m-634639ed72274d90b7f0cbd4dea30aa7/artifacts
+creation_timestamp: 1777140571956
+experiment_id: '0'
+last_updated_timestamp: 1777140576297
+model_id: m-634639ed72274d90b7f0cbd4dea30aa7
+model_type: null
+name: credit_scorecard_model
+source_run_id: d628d15271ef47699507a10e3385a168
+status: 2
+status_message: null
